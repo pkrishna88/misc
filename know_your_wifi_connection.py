@@ -6,3 +6,4 @@ p = subprocess.Popen(['/System/Library/PrivateFrameworks/Apple80211.framework/Ve
 out, err = p.communicate()
 t = out.decode('utf-8')
 print(t)
+
